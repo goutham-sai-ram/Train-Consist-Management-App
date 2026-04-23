@@ -1,19 +1,32 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * UseCase1TrainConsistApp
+ *
+ * @author Goutham
+ * @version 1.0
+ */
+
 public class UseCase1TrainConsistApp {
 
     public static void main(String[] args) {
 
-        System.out.println("======================================");
+        // Welcome message
+        System.out.println("=================================");
         System.out.println(" Train Consist Management App ");
-        System.out.println("======================================");
+        System.out.println("=================================");
 
+        // Initialize empty train consist
         List<String> trainConsist = new ArrayList<>();
 
-        System.out.println("\nTrain consist initialized.");
-        System.out.println("Initial number of bogies: " + trainConsist.size());
+        // Display initial bogie count
+        System.out.println("\nTrain initialized successfully!");
+        System.out.println("Initial Bogie Count: " + trainConsist.size());
 
-        System.out.println("\nApplication running...");
+        // Extra line (IMPORTANT for Git PR difference)
+        System.out.println("UC1 Completed");
+
+        // Program continues...
     }
 }
